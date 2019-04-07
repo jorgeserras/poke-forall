@@ -2,7 +2,7 @@
 
 This repository possess the Front-End part of an application which displays pokemons fetched from an API. The server caches data from https://pokeapi.co/ and information regarding users registered in the application. The Back-End Node server is available at [jorgeserras/poke-forall-server](https://github.com/jorgeserras/poke-forall-server) and uses MongoDB.
 
-To make sure users do not miss on any features, please canosider following the **Usage** section below.
+To make sure users do not miss on any features, please consider following the **Usage** section below.
 
 ## Usage
 
