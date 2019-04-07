@@ -38,7 +38,7 @@ To make sure users do not miss on any features, please canosider following the *
 
 ## NOTICE
 
-
+Data is retrieved from a server when visiting each page and cached in the browser's local storage. After 10 minutes since the application has been visited, the user is advised to refresh or revisit the app. An automatic storage clear is performed. Users can also clear the local storage manually. 
 
 ## Available Scripts
 
