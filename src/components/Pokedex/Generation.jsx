@@ -48,7 +48,7 @@ class Generation extends Component {
           generation_id: this.props.match.params.id,
           isFetching: true
         }); 
-        const generationId = this.state.generation_id;
+        //const generationId = this.state.generation_id;
         this.props.getGenerationData(this.props.match.params.id).then(() => {
           this.setState({
             isFetching: false

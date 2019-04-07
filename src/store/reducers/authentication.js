@@ -1,5 +1,6 @@
 import { actionTypes } from '../actions/constants';
 import history from '../../helpers/history';
+import Swal from 'sweetalert2';
 
 let user = JSON.parse(localStorage.getItem('user'));
 
@@ -15,6 +16,18 @@ const authentication = (state = initialState, action) => {
     case actionTypes.LOGIN_SUCCESS:
       localStorage.setItem('user', JSON.stringify(action.user));
       localStorage.setItem('token', JSON.stringify(action.user.token));
+      Swal.fire({ // Alert
+        title: "Loggin sucessful",
+        text: "Lets go catch them all!",
+        type: "success",
+        showCancelButton: false,
+        confirmButtonColor: "#009933",
+        confirmButtonText: "Ok"
+      }).then((result) => {
+        if (result.value) {
+          window.location = '/dex/pokemon';
+        }
+      });
       return {
         loggedIn: true,
         user: action.user

@@ -24,7 +24,6 @@ const registration = (state = initialState, action) => {
         if (result.value) {
           //history.push('/login');
           window.location = '/login';
-          //window.location.reload();
         }
       });
       return {};
