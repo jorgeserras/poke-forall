@@ -36,8 +36,6 @@ import { Form, Input, Tooltip, Icon, Button, } from 'antd';
           if (!err) {
             this.setState({ submitted: true });
             const { user } = this.state;
-            console.log('Received values of form: ', values);
-            console.log('User to register: ', user);
             this.props.registerUser(user); // Dispatch the credentials
           }
         });
@@ -51,7 +49,7 @@ import { Form, Input, Tooltip, Icon, Button, } from 'antd';
       compareToFirstPassword = (rule, value, callback) => {
         const form = this.props.form;
         if (value && value !== form.getFieldValue('password')) {
-          callback('Two passwords that you enter are inconsistent!');
+          callback('The two passwords that you entered are inconsistent!');
         } else {
           callback();
         }
@@ -64,8 +62,6 @@ import { Form, Input, Tooltip, Icon, Button, } from 'antd';
         }
         callback();
       }
-
-
 
   render() {
     const { getFieldDecorator } = this.props.form;

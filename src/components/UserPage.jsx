@@ -8,8 +8,9 @@ import { Row, Col, Button } from 'antd';
 class UserPage extends Component {
 
     handleDelete = () => {
-        console.log(this.props.user._id);
-        this.props.deleteUser(this.props.user._id);
+      //console.log(this.props.user._id);
+      window.location.reload(); // refresh
+      this.props.deleteUser(this.props.user._id);
     }
 
   render() {

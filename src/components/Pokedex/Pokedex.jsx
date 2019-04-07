@@ -18,7 +18,7 @@ class Pokedex extends Component {
   }; 
 
   componentDidMount() {
-    console.log("Fetch generations");
+    //console.log("Fetch generations");
     this.setState({
       flag: true
     }); 
@@ -26,7 +26,7 @@ class Pokedex extends Component {
   }
 
   pokemonHandler = () => {
-    console.log("Show them all!");
+    //console.log("Show them all!");
     this.props.getAllPokemon();
     const toggle = !this.state.showAllPokemon
     this.setState({

@@ -13,6 +13,7 @@ const registration = (state = initialState, action) => {
       };
     case actionTypes.REGISTER_SUCCESS:
       //console.log("USERS_REGISTER_SUCCESS");
+      window.location.reload();
       Swal.fire({ // Alert
         title: "Registration successfull!",
         text: "Do you want to sign in now?",

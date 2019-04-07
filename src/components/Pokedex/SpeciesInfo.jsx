@@ -28,12 +28,12 @@ class SpeciesInfo extends Component {
     }
 
     pokemonHandler = (name) => { // Fetchs the pokemon data to display
-        console.log("Fetch pokemon data (pokemonHandler) ", name);
+        //console.log("Fetch pokemon data (pokemonHandler) ", name);
         this.setState({
             isFetching: true
         }); 
         this.props.getPokemonData(name).then(() => {
-            console.log("DID IT POKEMON!");
+            //console.log("DID IT POKEMON!");
             this.setState({ 
                 isFetching: false
             }); 

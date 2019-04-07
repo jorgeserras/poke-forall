@@ -35,7 +35,7 @@ export default class PokeTabs extends Component {
                 default:
                     break
             }
-            console.log(focus_key);
+            //console.log(focus_key);
             return{
                 focus_key: focus_key,
                 prevPath: props.location.pathname,

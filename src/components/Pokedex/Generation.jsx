@@ -18,9 +18,7 @@ class Generation extends Component {
     static getDerivedStateFromProps(props, state) {
       // Store prevId in state so we can compare when props change.
       // Clear out previously-loaded data (so we don't render stale stuff).
-      console.log("getDerivedStateFromProps");
       if (!props.loading && (props.match.params.id !== state.prevId)) {
-        console.log("getDerivedStateFromProps IN");
         return {
           generation_id: props.match.params.id,
           prevId: props.match.params.id,
@@ -51,9 +49,7 @@ class Generation extends Component {
           isFetching: true
         }); 
         const generationId = this.state.generation_id;
-        console.log("Fetch generation data (componentDidMount) ", generationId);
         this.props.getGenerationData(this.props.match.params.id).then(() => {
-          //console.log("DID IT!");
           this.setState({
             isFetching: false
           }); 

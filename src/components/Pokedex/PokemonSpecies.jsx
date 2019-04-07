@@ -49,7 +49,7 @@ class PokemonSpecies extends Component {
         isFetching: true
       });
       const speciesName = this.props.match.params.name;
-      console.log("Fetch species data (componentDidMount) ", speciesName);
+      //console.log("Fetch species data (componentDidMount) ", speciesName);
       this.props.getSpeciesData(speciesName).then(() => {
         //console.log("DID IT SPECIES!");
         this.setState({ 
