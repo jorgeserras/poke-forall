@@ -14,9 +14,15 @@ To make sure users do not miss on any features, please canosider following the *
 
 4. In the first tab, the user can click on a Generation, loading all pokemons of that generation in the second tab. The user can always press the previous tab without the need to refresh the page. Additionally, pokemons can be searched manually by their name in the first tab.
 
-5. 
+5. Now, revisit the second tab. You can press a pokemon which will load the third and final tab. The latter possesses information about the pokemon species selected.
 
-After signing in, the user can click on "User Page" where he can delete the account or logout by pressing "Sign Out".
+**6.** In the end of the tab, there is a number of cards which are not loaded. Depending on the selected pokemon species, the number varies. These correspond to the several evolution stages ordered. **Now, press a card to reveal the pokemon and its details.**
+
+7. Its worth noting that the interaction with the suer flow adapts the browser's url, which determines what is rendered in each tab without refreshes.
+
+8. After exploring the interface, you can visit the "User Page" button in the Navbar where you can delete the account if wanted. Users can also logout by pressing "Sign Out" in the Navbar.
+
+9. Please read the **NOTICE** section in the current markdown.
 
 ## Features
 
