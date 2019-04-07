@@ -9,7 +9,6 @@ class UserPage extends Component {
 
     handleDelete = () => {
       //console.log(this.props.user._id);
-      window.location.reload(); // refresh
       this.props.deleteUser(this.props.user._id);
     }
 
