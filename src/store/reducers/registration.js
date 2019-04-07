@@ -1,6 +1,6 @@
 import { actionTypes } from '../actions/constants';
 import Swal from 'sweetalert2';
-import history from '../../helpers/history';
+//import history from '../../helpers/history';
 
 const initialState = { submitted: false};
 
@@ -13,7 +13,6 @@ const registration = (state = initialState, action) => {
       };
     case actionTypes.REGISTER_SUCCESS:
       //console.log("USERS_REGISTER_SUCCESS");
-      window.location.reload();
       Swal.fire({ // Alert
         title: "Registration successfull!",
         text: "Do you want to sign in now?",
@@ -23,7 +22,9 @@ const registration = (state = initialState, action) => {
         confirmButtonText: "Ok"
       }).then((result) => {
         if (result.value) {
-          history.push('/login');
+          //history.push('/login');
+          window.location = '/login';
+          //window.location.reload();
         }
       });
       return {};

@@ -1,6 +1,6 @@
 import { actionTypes } from '../actions/constants';
 import Swal from 'sweetalert2';
-import history from '../../helpers/history';
+//import history from '../../helpers/history';
 
 const initialState = {};
 
@@ -13,14 +13,15 @@ const users = (state = initialState, action) => {
       //console.log("DELETE_SUCCESS");
       Swal.fire({ // Alert
         title: "Deletion successfull!",
-        text: "Do you want to sign in again?",
+        text: "Do you want to create another account?",
         type: "success",
         showCancelButton: true,
         confirmButtonColor: "#009933",
         confirmButtonText: "Ok"
       }).then((result) => {
         if (result.value) {
-          history.push('/login');
+          //history.push('/login');
+          window.location = '/register';
         }
       });
       return {};
