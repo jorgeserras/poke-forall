@@ -16,7 +16,7 @@ To make sure users do not miss on any features, please canosider following the *
 
 5. Now, revisit the second tab. You can press a pokemon which will load the third and final tab. The latter possesses information about the pokemon species selected.
 
-**6.** In the end of the tab, there is a number of cards which are not loaded. Depending on the selected pokemon species, the number varies. These correspond to the several evolution stages ordered. **Now, press a card to reveal the pokemon and its details.**
+6. In the end of the tab, there is a number of cards which are not loaded. Depending on the selected pokemon species, the number varies. These correspond to the several evolution stages ordered. **Now, press a card to reveal the pokemon and its details.**
 
 7. Its worth noting that the interaction with the suer flow adapts the browser's url, which determines what is rendered in each tab without refreshes.
 
