@@ -17,7 +17,7 @@ const authentication = (state = initialState, action) => {
       localStorage.setItem('user', JSON.stringify(action.user));
       localStorage.setItem('token', JSON.stringify(action.user.token));
       Swal.fire({ // Alert
-        title: "Loggin sucessful",
+        title: "Login successful",
         text: "Lets go catch them all!",
         type: "success",
         showCancelButton: false,
