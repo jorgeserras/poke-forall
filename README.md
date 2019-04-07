@@ -10,7 +10,7 @@ This repository possess the Front-End part of an application which displays poke
 
 ## Features
 
-- Pokedex user flow without refreshing! When exploring the tabs to finf each pokemon, all components render automatically when needed, adapting to the user's action.
+- Pokedex user flow without refreshing! When exploring the tab system to find each pokemon, all components render automatically when needed, adapting to the user's actions.
 
 - Developed using [ReactJs](https://reactjs.org/) and [Redux](https://redux.js.org/).
 
