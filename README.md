@@ -2,11 +2,21 @@
 
 This repository possess the Front-End part of an application which displays pokemons fetched from an API. The server caches data from https://pokeapi.co/ and information regarding users registered in the application. The Back-End Node server uses MongoDB.
 
+To make sure users do not miss on any features, please canosider following the **Usage** section below.
+
 ## Usage
 
-- Register a new account (needed to explore the pokedex) by pressing the "Register" button in the Navbar.
+1. Visit: [PokeForAll](https://poke-forall.herokuapp.com/)
 
-- After signing in, the user can click on "User Page" where he can delete the account or logout by pressing "Sign Out".
+2. After checking the Home Page, press "Register" in the Navbar. Authentication is required to access the Pokedex.
+
+3. Go the login page and sign in. The user is redirected to the Pokedex system and can now perform any action in the application.
+
+4. In the first tab, the user can click on a Generation, loading all pokemons of that generation in the second tab. The user can always press the previous tab without the need to refresh the page. Additionally, pokemons can be searched manually by their name in the first tab.
+
+5. 
+
+After signing in, the user can click on "User Page" where he can delete the account or logout by pressing "Sign Out".
 
 ## Features
 
