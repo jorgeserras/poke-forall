@@ -1,6 +1,6 @@
 # PokeForAll
 
-This repository possess the Front-End part of an application which displays pokemons fetched from a server which caches information from https://pokeapi.co/ and user authentication. The Back-End Node server uses MongoDB.
+This repository possess the Front-End part of an application which displays pokemons fetched from a server. The server caches information from https://pokeapi.co/ and also the users registered in the application. The Back-End Node server uses MongoDB.
 
 ## Usage
 
