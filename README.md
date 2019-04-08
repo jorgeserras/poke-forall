@@ -10,15 +10,15 @@ To make sure users do not miss on any features, please consider following the **
 
 2. After checking the Home Page, press "Register" in the Navbar. Authentication is required to access the Pokedex.
 
-3. Go the login page and sign in. The user is redirected to the Pokedex system and can now perform any action in the application.
+3. Go to the login page and sign in. The user is redirected to the Pokedex system and can now perform any action in the application.
 
-4. In the first tab, the user can click on a Generation, loading all pokemons of that generation in the second tab. The user can always press the previous tab without the need to refresh the page. Additionally, pokemons can be searched manually by their name in the first tab.
+4. In the first tab, the user can click on a Generation, loading all pokemons of that generation in the second tab. You can always press the previous tab without the need to refresh the page. Additionally, pokemons can be searched manually by their name in the first tab.
 
-5. Now, revisit the second tab. You can press a pokemon which will load the third and final tab. The latter possesses information about the pokemon species selected.
+5. Now, revisit the second tab. You can press any pokemon which will load the third and final tab. The latter possesses information about the pokemon species selected.
 
-6. In the end of the tab, there is a number of cards which are not loaded. Depending on the selected pokemon species, the number varies. These correspond to the several evolution stages ordered. **Now, press a card to reveal the pokemon and its details.**
+6. In the end of the tab, there is a number of cards which are not loaded. Depending on the selected pokemon species, the number of cards varies. These correspond to the several evolution stages ordered. **Now, press a card to reveal the pokemon and its details.** Pokemons without an evolution chain appear alone.
 
-7. Its worth noting that the interaction with the suer flow adapts the browser's url, which determines what is rendered in each tab without refreshes.
+7. Its worth noting that the interaction with the user flow adapts the browser's url, which determines what is rendered in each tab without refreshing.
 
 8. After exploring the interface, you can visit the "User Page" button in the Navbar where you can delete the account if wanted. Users can also logout by pressing "Sign Out" in the Navbar.
 
